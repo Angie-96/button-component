@@ -1,0 +1,92 @@
+button {
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 20px;
+  opacity: 0.8;
+  background-color: #eee;
+  box-shadow: 0 3px 10px -5px #7f7e7e;
+  margin: 5px;
+}
+
+button:hover,
+.hoverNFocus {
+  background-color: rgb(179, 179, 179);
+  opacity: 1;
+}
+
+.outline {
+  border: 1px solid rgb(68, 68, 68);
+}
+
+.text {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.disableShadow {
+  box-shadow: none;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.disabled:hover {
+  opacity: 0.5;
+  background-color: #eee;
+}
+
+.iconLeft,
+.iconRight {
+  display: flex;
+}
+
+.iconLeft::before,
+.iconRight::after {
+  background-image: url("https://simpleicon.com/wp-content/uploads/rocket.svg");
+  background-size: 20px;
+  width: 25px;
+  height: 20px;
+  content: "";
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.iconRight::after {
+  margin-left: 3px;
+}
+
+.small {
+  width: 100px;
+}
+.medium {
+  width: 120px;
+}
+.large {
+  width: 150px;
+}
+.primary {
+  background-color: rgb(48, 48, 179);
+  color: white;
+}
+
+.primary:hover {
+  background-color: rgb(48, 48, 179);
+}
+.secondary {
+  background-color: rgb(4, 163, 89);
+  color: white;
+}
+.secondary:hover {
+  background-color: rgb(4, 163, 89);
+}
+
+.danger {
+  background-color: rgb(223, 59, 59);
+  color: white;
+}
+.danger:hover {
+  background-color: rgb(223, 59, 59);
+}
